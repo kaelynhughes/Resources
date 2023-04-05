@@ -3,6 +3,7 @@
 ## Aliases
 ```zsh
 git commit -m -> gc
+git add -> ga
 python3 -> py
 ```
 
@@ -72,3 +73,8 @@ git push -f # this should be avoided if possible
 
 * Inspector tools: `Cmd + Opt + I`
 * Go to mobile view within a Firefox window: `Cmd + Shift + M`
+
+### Vim Commands
+
+* Exit Vim: `:wq`
+* Go to end of document: `G`
