@@ -1,4 +1,4 @@
-# Command Line Cheatsheet
+# Command Cheatsheet
 
 ## Aliases
 ```zsh
@@ -41,3 +41,34 @@ git commit -m "make this a good description; should be present tense and treated
 git push origin
 ```
 ...then review the git pull request, make sure everything looks good, and move the task to the "Ready for Review" column of the GitHub project board
+
+### Pull In Updates to a Branch
+
+```zsh
+git remote add <name> <URL>
+git fetch <name>
+get checkout <branch>
+```
+
+### Undo a Commit
+
+```zsh
+git reset HEAD~<number of commits to go back by>
+```
+
+### Undo a Commit Sent to a Remote
+
+```bash
+git reset HEAD~<number of commits to go back by>
+git push -f # this should be avoided if possible
+```
+
+### VSCode Keyboard Shortcuts
+
+* Search for a command: `Cmd + Shift + P`
+* Open/close a terminal window: `Ctrl + ` `
+
+### Other helpful keyboard shortcuts
+
+* Inspector tools: `Cmd + Opt + I`
+* Go to mobile view within a Firefox window: `Cmd + Shift + M`
