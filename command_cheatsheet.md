@@ -7,6 +7,8 @@ git add -> ga
 python3 -> py
 ```
 
+docker compose -f docker-compose-devl.yml up
+
 ## Git
 
 ### Check `origin` and `upstream` Remote URLs
@@ -68,11 +70,14 @@ git push -f # this should be avoided if possible
 
 * Search for a command: `Cmd + Shift + P`
 * Open/close a terminal window: `Ctrl + ` `
+* Search all files in the current directory: `Cmd + Shift + F`
+* Preview a markdown file: `Cmd + Shift + V`
 
 ### Other helpful keyboard shortcuts
 
 * Inspector tools: `Cmd + Opt + I`
 * Go to mobile view within a Firefox window: `Cmd + Shift + M`
+* Full-screen current tab (excluding VSCode): `Cmd + Shift + F`
 
 ### Vim Commands
 
