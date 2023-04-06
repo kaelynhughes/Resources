@@ -4,6 +4,7 @@
 ```zsh
 git commit -m -> gc
 git add -> ga
+git push -> gp
 python3 -> py
 ```
 
