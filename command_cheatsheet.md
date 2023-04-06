@@ -67,20 +67,30 @@ git reset HEAD~<number of commits to go back by>
 git push -f # this should be avoided if possible
 ```
 
-### VSCode Keyboard Shortcuts
+## VSCode Keyboard Shortcuts
 
 * Search for a command: `Cmd + Shift + P`
 * Open/close a terminal window: `Ctrl + ` `
 * Search all files in the current directory: `Cmd + Shift + F`
 * Preview a markdown file: `Cmd + Shift + V`
 
-### Other helpful keyboard shortcuts
+## Rectangle (windows)
+
+* Left/right/top/bottom half: `Cmd + Opt + [arrow key]`
+* Top left/right: `Cmd + Ctrl + [←/→]`
+* Bottom left/right: `Cmd + Ctrl + Shift + [←/→]`
+* Maximize: `Cmd + Opt + F`
+* Maximize height: `Ctrl + Opt + Shift + ↑` 
+* Leftmost fourth (for terminal, notes): `Cmd + Ctrl + ↑`
+* Second leftmost fourth (for browser?): `Cmd + Ctrl + ↓`
+
+## Vim Commands
+
+* Exit Vim: `:wq`
+* Go to end of document: `G`
+
+## Other helpful keyboard shortcuts
 
 * Inspector tools: `Cmd + Opt + I`
 * Go to mobile view within a Firefox window: `Cmd + Shift + M`
 * Full-screen current tab (excluding VSCode): `Cmd + Shift + F`
-
-### Vim Commands
-
-* Exit Vim: `:wq`
-* Go to end of document: `G`
