@@ -7,8 +7,9 @@ git add -> ga
 git push -> gp
 python3 -> py
 ```
+## Other stuff for command line
 
-docker compose -f docker-compose-devl.yml up
+`docker compose -f docker-compose-devl.yml up` - start aggietime API
 
 ## Git
 
