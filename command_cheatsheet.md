@@ -72,8 +72,20 @@ git push -f # this should be avoided if possible
 
 * Search for a command: `Cmd + Shift + P`
 * Open/close a terminal window: `Ctrl + ` `
-* Search all files in the current directory: `Cmd + Shift + F`
+* Search the current file: `Cmd + F`; add  `Shift` to search the current directory instead
 * Preview a markdown file: `Cmd + Shift + V`
+* Open/close sidebar: `Cmd + B`
+* Select word: `Cmd + D` (press multiple times to also select subsequent occurrences of that word)
+* Select line: `Cmd + L` (press multiple times to also select subsequent lines)
+* Delete line: `Cmd + Shift + K`
+* Split editor: `Cmd + [\, 2, 3, 4]` depending on how many you already have up
+    * Switch between sections: `Cmd+
+* Move line(s) up/down: `Opt + [↑/↓]`; add `Shift` to copy instead of moving
+* Format code: `Opt + Shift + F`
+* Peek definition: `Opt + F12`
+* Rename a component: `F2`
+
+
 
 ## Rectangle (windows)
 
