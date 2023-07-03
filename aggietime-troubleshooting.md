@@ -13,4 +13,7 @@
 * Frontend says something is already running on port 3000
     * u prolly shut down ur terminal window without ending the process
     * Shutting down computer and turning it back on again works but there's probably an easier way too
+* Error response from daemon: Ports are not available: exposing port TCP 0.0.0.0:5000 -> 0.0.0.0:0: listen tcp 0.0.0.0:5000: bind: address already in use
+    * AirPlay receiver is on and listening on port 5000
+    * Go to System Settings -> General -> AirDrop & Handoff and turn off AirPlay Receiver
 
