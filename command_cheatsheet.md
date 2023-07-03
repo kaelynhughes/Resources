@@ -9,7 +9,13 @@ python3 -> py
 ```
 ## Other stuff for command line
 
-`docker compose -f docker-compose-devl.yml up` - start aggietime API
+* Start Aggietime API: `docker compose -f docker-compose-devl.yml up`
+* Check what is running on a port: `sudo lsof -P -i :[port number]`
+    * `lsof`: ls open files
+    * `-P`: tells shell not to convert port numbers to port names
+        * Can instead do `-nP` if I want to see network numbers instead of network names, eg. 127.0.0.1 instead of localhost
+    * `-iTCP:5000`: specifies which port
+    * `grep`: search for a keyword
 
 ## Git
 
