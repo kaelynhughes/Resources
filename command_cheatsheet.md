@@ -9,13 +9,19 @@ python3 -> py
 ```
 ## Other stuff for command line
 
-* Start Aggietime API: `docker compose -f docker-compose-devl.yml up`
-* Check what is running on a port: `sudo lsof -P -i :[port number]`
-    * `lsof`: ls open files
-    * `-P`: tells shell not to convert port numbers to port names
-        * Can instead do `-nP` if I want to see network numbers instead of network names, eg. 127.0.0.1 instead of localhost
-    * `-iTCP:5000`: specifies which port
-    * `grep`: search for a keyword
+Start Aggietime API: 
+```zsh
+docker compose -f docker-compose-devl.yml up
+```
+Check what is running on a port: 
+* `lsof` = `ls` open files
+* `-P`: tells shell not to convert port numbers to port names
+    * Can instead do `-nP` if I want to see network numbers instead of network names, eg. 127.0.0.1 instead of localhost
+* `-iTCP:5000`: specifies which port
+* `grep`: search for a keyword
+```zsh
+sudo lsof -P -i :[port number]
+```
 
 ## Git
 
@@ -61,10 +67,24 @@ git fetch <name>
 get checkout <branch>
 ```
 
-### Undo a Commit
+### Undo Local Commits
 
 ```zsh
 git reset HEAD~<number of commits to go back by>
+```
+If you just committed and want to remove the commit, but keep all your changes intact:
+```zsh
+git reset HEAD^
+```
+If you just committed and want to undo the act of committing, but go back to having all the same files staged:
+```zsh
+git reset --soft HEAD^
+```
+If you want to get rid of _all_ your most recent changes and reset all your files to a certain commit, choose one of the following:
+```zsh
+git reset --hard HEAD
+git reset --hard HEAD^
+git reset --hard HEAD~<number of commits to go back by>
 ```
 
 ### Undo a Commit Sent to a Remote
