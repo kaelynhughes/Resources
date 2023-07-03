@@ -36,6 +36,14 @@ git fetch <name>
 get checkout <branch>
 ```
 
+## Adding and Pulling a Branch from a Fork
+
+```zsh
+git remote add <name> <URL>
+git fetch <name>
+get checkout <branch>
+```
+
 ## Updating Commit History
 
 ### Committing New Changes
