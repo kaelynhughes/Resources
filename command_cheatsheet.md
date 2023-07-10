@@ -56,7 +56,16 @@ sudo lsof -P -i :[port number]
 ## Vim Commands
 
 * Exit Vim: `:wq`
-* Go to end of document: `G`
+* Move cursor:
+    * Up: `k`
+    * Down: `j`
+    * Left: `h`
+    * Right: `l`
+* Move to the far left of the line at the:
+    * Top of screen: `H`
+    * Middle of screen: `M`
+    * Bottom of screen: `L`
+* Go to last line of document: `G`
 
 ## Other helpful keyboard shortcuts
 
