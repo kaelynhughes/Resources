@@ -53,20 +53,6 @@ sudo lsof -P -i :[port number]
 * Leftmost fourth (for terminal, notes): `Cmd + Ctrl + ↑`
 * Second leftmost fourth (for browser?): `Cmd + Ctrl + ↓`
 
-## Vim Commands
-
-* Exit Vim: `:wq`
-* Move cursor:
-    * Up: `k`
-    * Down: `j`
-    * Left: `h`
-    * Right: `l`
-* Move to the far left of the line at the:
-    * Top of screen: `H`
-    * Middle of screen: `M`
-    * Bottom of screen: `L`
-* Go to last line of document: `G`
-
 ## Other helpful keyboard shortcuts
 
 * Inspector tools: `Cmd + Opt + I`
