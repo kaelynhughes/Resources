@@ -18,9 +18,15 @@ Save & exit Vim: `:wq`
     * `E`: Forwards to the end of a word
     * `B`: Backwards to the start of a word
     * `gE`: Backwards to the end of a word
+* Move in the current line:
+    * `0`: Start of the line
+    * `^`: First non-blank character
+    * `g_`: Last non-blank character
+    * `$`: End of the line
 * Move to the beginning of the line at the:
     * `H`: Top of screen
     * `M`: Middle of screen
     * `L`: Bottom of screen
     * `gg`: First line of document
     * `G`: Last line of document
+    * `5gg`: 5th line of document

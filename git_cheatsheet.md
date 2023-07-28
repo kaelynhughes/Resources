@@ -1,5 +1,10 @@
 # Git Cheatsheet
 
+## Set Up a New Repository
+```zsh
+git clone [git url for project]
+```
+
 ## Managing Remote Branches
 
 ### Set Up Remotes
