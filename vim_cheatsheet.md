@@ -35,3 +35,8 @@ Save & exit Vim: `:wq`
   - `%`: Move to matching character, as in `(` to `)` (supports `()`, `{}`, `[]`)
   - `gd`: Local declaration
   - `gD`: Global declaration
+  - `fx`: Move to next instance of character x
+
+## Text Replacement
+
+- `rx`: Replace character at cursor with character x
