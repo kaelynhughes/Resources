@@ -24,7 +24,7 @@ A-number pattern:
 ## API call types
 
 - GET - Used to retrieve a representation of a resource.
-- POST - Used to create new new resources and sub-resources
-- PUT - Used to update existing resources. the enclosed entity is considered to be a modified version of the resource stored on the origin server, and the client is requesting that the stored version be replaced
-- PATCH - Used to update existing resources. the enclosed entity contains a set of instructions describing how a resource currently residing on the origin server should be modified to produce a new version
-- DELETE - Used to delete existing resources
+- POST - Used to create new new resources and sub-resources.
+- PUT - Used to update existing resources. **The enclosed entity is considered to be a modified version of the resource stored on the origin server, and the client is requesting that the stored version be replaced.**
+- PATCH - Used to update existing resources. **The enclosed entity contains a set of instructions describing how a resource currently residing on the origin server should be modified to produce a new version.**
+- DELETE - Used to delete existing resources.
