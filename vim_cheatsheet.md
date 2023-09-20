@@ -40,3 +40,9 @@ Save & exit Vim: `:wq`
 ## Text Replacement
 
 - `rx`: Replace character at cursor with character x
+
+## Selecting Text
+
+- `v`: Start selection (visual mode) before doing a command
+- `V`: Start visual mode, but only select full lines
+- `o`: Move to the other end of the selected area
