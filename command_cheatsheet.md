@@ -9,9 +9,6 @@ python3 -> py
 ```
 ## Other stuff for command line
 
-Start Aggietime API: 
-```zsh
-docker compose -f docker-compose-devl.yml up
 ```
 Check what is running on a port: 
 * `lsof` = `ls` open files
@@ -43,7 +40,7 @@ sudo lsof -P -i :[port number]
 
 
 
-## Rectangle (windows)
+## Rectangle (window manager)
 
 * Left/right/top/bottom half: `Cmd + Opt + [arrow key]`
 * Top left/right: `Cmd + Ctrl + [←/→]`
