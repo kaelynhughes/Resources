@@ -44,7 +44,7 @@ sudo lsof -P -i :[port number]
 - Left/right/top/bottom half: `Cmd + Opt + [arrow key]`
 - Top left/right: `Cmd + Ctrl + [←/→]`
 - Bottom left/right: `Cmd + Ctrl + Shift + [←/→]`
-- Maximize: `Cmd + Opt + F`
+- Maximize: `Ctrl + Opt + Enter`
 - Maximize height: `Ctrl + Opt + Shift + ↑`
 - Leftmost fourth (for terminal, notes): `Cmd + Ctrl + ↑`
 - Second leftmost fourth (for browser?): `Cmd + Ctrl + ↓`
