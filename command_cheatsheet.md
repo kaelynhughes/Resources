@@ -54,3 +54,5 @@ sudo lsof -P -i :[port number]
 - Inspector tools: `Cmd + Opt + I`
 - Go to mobile view within a Firefox window: `Cmd + Shift + M`
 - Full-screen current tab (excluding VSCode): `Cmd + Shift + F`
+- docker compose -f [docker compose file] up [--build]
+  - build command rebuilds the container

@@ -102,6 +102,20 @@ If you want to get rid of _all_ your most recent changes and reset all your file
 git reset --hard HEAD
 ```
 
+### Undoing Only Part of a Commit
+
+```zsh
+git show [commit hash] >> changes.diff
+```
+
+Edit the `changes.diff` file that was just created and remove the parts of the commit you want to **keep**.
+
+```zsh
+git apply --reverse changes.diff
+```
+
+Everything in the `changes.diff` file will now be removed.
+
 ### Undoing a Commit Sent to a Remote
 
 Use `git reset` as specified above, then use:
