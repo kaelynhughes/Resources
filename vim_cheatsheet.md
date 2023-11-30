@@ -37,9 +37,31 @@ Save & exit Vim: `:wq`
   - `gD`: Global declaration
   - `fx`: Move to next instance of character x
 
+## Enter Insert Mode
+
+- `i`: Insert before cursor
+- `I`: Insert at the beginning of the line
+- `a`: Insert after the cursor
+- `A`: Insert at the end of the line
+- `o`: Open a new line below the current line and begin inserting there
+- `O`: Open a new line above the current line and begin inserting there
+- `ea`: Append at the end of the word
+
+## Commands During Insert Mode
+
+- `Ctrl + h`: Delete the character before the cursor
+- `Ctrl + w`: Delete the word before the cursor
+- `Ctrl + j`: Add a line break at the cursor position
+- `Ctrl + t`: Indent the line one time (moving right)
+- `Ctrl + d`: De-indent the line one time (moving left)
+- `Ctrl + rx`: Insert the contents of register `x`
+- `Ctrl + ox`: Temporarily enter normal mode to do one command `x`
+
 ## Text Replacement
 
 - `rx`: Replace character at cursor with character x
+- `R`: Replace more than one character; keep replacing until `ESC` is pressed
+- `J`: join the line below to the current line with 1 space in between
 
 ## Selecting Text
 
