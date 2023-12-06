@@ -36,6 +36,16 @@ Save & exit Vim: `:wq`
   - `gd`: Local declaration
   - `gD`: Global declaration
   - `fx`: Move to next instance of character x
+  - `5x`: Repeat movement command x 5 times
+
+## Screen Movement
+
+- `Ctrl + e`: move screen up one line without moving cursor
+- `Ctrl + y`: move screen down one line without moving cursor
+- `Ctrl + b`: move screen up one page & the cursor to the last line
+- `Ctrl + f`: move screen down one page & the cursor to the first line
+- `Ctrl + d`: move cursor and screen down 1/2 page
+- `Ctrl + u`: move cursor and screen up 1/2 page
 
 ## Enter Insert Mode
 
