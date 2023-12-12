@@ -56,3 +56,10 @@ sudo lsof -P -i :[port number]
 - Full-screen current tab (excluding VSCode): `Cmd + Shift + F`
 - docker compose -f [docker compose file] up [--build]
   - build command rebuilds the container
+
+## fzf commands
+
+- Enter interactive finder: `fzf`
+- Move up in the list: `Ctrl + K` or `Ctrl + P`
+- Move down in the list: `Ctrl + J` or `Ctrl + N`
+- Exit interactive finder: `Esc` or `Ctrl + C` or `Ctrl + G`
