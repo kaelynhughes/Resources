@@ -59,6 +59,12 @@ sudo lsof -P -i :[port number]
 
 ## fzf commands
 
+_These commands available through junegunn's fzf package - install through homebrew ↓_
+
+```
+brew install fzf
+```
+
 - Enter interactive finder: `fzf`
 - Move up in the list: `Ctrl + K` or `Ctrl + P`
 - Move down in the list: `Ctrl + J` or `Ctrl + N`
