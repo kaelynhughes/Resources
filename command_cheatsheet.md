@@ -41,6 +41,8 @@ sudo lsof -P -i :[port number]
 
 ## Rectangle (window manager)
 
+_These are my personal preferences for [the Rectangle window manager](https://rectangleapp.com/) for Mac._
+
 - Left/right/top/bottom half: `Cmd + Opt + [arrow key]`
 - Top left/right: `Cmd + Ctrl + [←/→]`
 - Bottom left/right: `Cmd + Ctrl + Shift + [←/→]`
@@ -59,7 +61,7 @@ sudo lsof -P -i :[port number]
 
 ## fzf commands
 
-_These commands available through junegunn's fzf package - install through homebrew ↓_
+_These commands available through [junegunn's fzf package](https://github.com/junegunn/fzf) - install through homebrew ↓_
 
 ```
 brew install fzf
