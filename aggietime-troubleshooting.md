@@ -34,7 +34,7 @@ cas:
     - ./cas.properties:/etc/cas/config/cas.properties:ro
 ```
 
-5. Get on the staff VPN ([instructions here](https://usu.service-now.com/aggies?id=kb_article_view&sysparm_article=KB0015561) - you will have to sign in to ServiceNow to see the article!)
+5. Get on the staff VPN ([instructions here](https://usu.service-now.com/aggies?id=kb_article_view&sysparm_article=KB0015561) - you will have to sign in to ServiceNow to see the article!) Make sure to do this BEFORE starting the docker container - if you wait till after, the container will probably shut down immediately. However I have also seen it run, but not be able to connect to the database - so even if you connect while it's running, you'll get errors.
 6. Start docker container!
 
 ```
