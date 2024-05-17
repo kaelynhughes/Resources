@@ -20,3 +20,11 @@ A-number pattern:
 - `^(GP|DP|UN)`: starts with a header for either group, department, or unit
 - `[A-Z\d]`: the next set of characters could be any capital letter or a digit
 - `{3,4}`: that set of characters will contain between 3 and 4 items, inclusive
+
+## API call types
+
+- GET - Used to retrieve a representation of a resource.
+- POST - Used to create new new resources and sub-resources.
+- PUT - Used to update existing resources. **The enclosed entity is considered to be a modified version of the resource stored on the origin server, and the client is requesting that the stored version be replaced.**
+- PATCH - Used to update existing resources. **The enclosed entity contains a set of instructions describing how a resource currently residing on the origin server should be modified to produce a new version.**
+- DELETE - Used to delete existing resources.
