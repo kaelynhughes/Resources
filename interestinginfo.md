@@ -21,6 +21,15 @@ A-number pattern:
 - `[A-Z\d]`: the next set of characters could be any capital letter or a digit
 - `{3,4}`: that set of characters will contain between 3 and 4 items, inclusive
 
+## Typescript silly things
+
+- `&&`: go through the items. if you see a falsy item, return it. if you get through them all and don't find one, return the last one.
+- `||`: go through the items. if you see a truthy item, return it. if you get through them all and don't find one, return the last one.
+- `??`: should have two items. if the first one is null or undefined, return the second item. if it exists, return it. (used to return a default value)
+
+  - special case of `||` - you can use it if you want to provide a default value but consider 0 or an empty string to be a valid/usable value
+  - if you want to combine it with `||` or `&&`, use parentheses to show precendence: `(null || undefined) ?? "value"` would return `"value"`
+
 ## API call types
 
 - GET - Used to retrieve a representation of a resource.
