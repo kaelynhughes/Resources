@@ -9,6 +9,32 @@ git push -> gp
 python3 -> py
 ```
 
+## `tmux` Commands
+
+Note 0: Precede each of these with `Ctrl + b`
+
+Note 1: Bottom bar contains the numbers and names associated with each name, plus a `*` after the active window and a `-` after the last active window
+
+### Windows
+- `c`: Create window 
+- `,`: Rename current window
+- `w`: List windows
+- numbers `0-9`: Switch to the associated window
+- `l`: Toggle last active window
+- `&`: Close current window
+
+### Panes 
+
+- `"`: Split window vertically
+- `%`: Split window horizontally
+- `x`: Kill current pane 
+- `{`: Move current pane left
+- `}`: Move current pane right
+- Arrows: Switch panes in the direction the arrow is pointing
+- `q`: Show pane numbers
+- `q` + number `0-9`: Select pane by number
+- 
+
 ## Other stuff for command line
 
 ````

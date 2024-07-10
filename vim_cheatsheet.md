@@ -72,9 +72,31 @@ Save & exit Vim: `:wq`
 - `rx`: Replace character at cursor with character x
 - `R`: Replace more than one character; keep replacing until `ESC` is pressed
 - `J`: join the line below to the current line with 1 space in between
+- `u`: undo
+- `U`: restore the last line changed - undo changes to that line
+- `Ctrl + r`: redo
 
 ## Selecting Text
 
 - `v`: Start selection (visual mode) before doing a command
 - `V`: Start visual mode, but only select full lines
 - `o`: Move to the other end of the selected area
+
+## Other Commands
+
+- ``
+
+## NVChad Commands
+
+- Theme selector:
+    - `<Spacebar>th` (one key at a time): open theme selector
+    - Use vim key bindings to navigate list 
+    - `<Enter>` to select a theme and close
+    - `<Esc>` twice to close without selecting
+- File navigation (uses nvim-tree.lua)
+    - `<Ctrl>n` (one key at a time): toggle file navigator
+    - Use vim key bindings to navigate list 
+    - `<Enter>`: expand a folder or open a file
+    - `g?`: show a list of mappings for the file navigator
+    - `q`: close list
+-`<Space>ch` Cheatsheet
