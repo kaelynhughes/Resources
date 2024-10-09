@@ -22,7 +22,7 @@ Note 1: Bottom bar contains the numbers and names associated with each name, plu
 - numbers `0-9`: Switch to the associated window
 - `l`: Toggle last active window
 - `&`: Close current window
-
+- `<`: Open a menu of window operation options
 ### Panes 
 
 - `"`: Split window vertically
@@ -33,7 +33,7 @@ Note 1: Bottom bar contains the numbers and names associated with each name, plu
 - Arrows: Switch panes in the direction the arrow is pointing
 - `q`: Show pane numbers
 - `q` + number `0-9`: Select pane by number
-- 
+- `>`: Open a menu of pane operation options
 
 ## Other stuff for command line
 
