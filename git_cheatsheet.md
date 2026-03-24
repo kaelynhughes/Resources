@@ -47,7 +47,7 @@ get checkout <branch>
 ```zsh
 git remote add <name> <URL>
 git fetch <name>
-get checkout <branch>
+git checkout <branch>
 ```
 
 ### Delete a Local Branch
