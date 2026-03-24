@@ -108,7 +108,7 @@ git reset --hard HEAD
 git show [commit hash] >> changes.diff
 ```
 
-Edit the `changes.diff` file that was just created and remove the parts of the commit you want to **keep**.
+Edit the `changes.diff` file that was just created and **remove** the parts of the commit you want to **keep**.
 
 ```zsh
 git apply --reverse changes.diff
